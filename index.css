@@ -3,10 +3,12 @@
   position: sticky;
   display: flex;
   height: 85px;
+  /* min-width: 1300; */
 }
 
 .left-header {
-  display: flex; */
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 #google-logo {
@@ -19,7 +21,7 @@
   border-radius: 25px;
   display: flex;
   align-items: center;
-  margin: 15px;
+  margin: 15px 0 0 0;
   border: solid 1px rgb(242, 242, 242);
   border-top: transparent;
   box-shadow: 0px 7px 17px -1px #b1b1b1a3;
@@ -53,7 +55,8 @@
 }
 
 .middle-header {
-  width: calc(100vw - 1179px);
+  width: calc(100vw - 1150px);
+  min-width: 200px;
 }
 
 .right-header {
@@ -73,7 +76,7 @@
 .header-sign-in {
   word-wrap: none;
   background-color: rgb(66, 141, 206);
-  margin: 10px;
+  margin: 10px 0 20px 0;
   padding: 15px;
   border: solid 1px;
 }
@@ -81,7 +84,6 @@
 #sign-in-button {
   color: white;
   text-decoration: none;
-  /* margin: 20px; */
 }
 
 .nav-bar {
@@ -91,7 +93,6 @@
 .nav-bar-left {
   padding-inline-start: 0px;
   display: flex;
-  width: 700px;
   margin-left: 185px;
   cursor: pointer;
 }
@@ -156,13 +157,21 @@
   height: 20px;
 }
 
+.nav-bar-space {
+  width: 100px;
+}
+
 .nav-bar-right {
   padding-inline-start: 0px;
   display: flex;
   justify-content: space-evenly;
-  width: 200px;
-  margin-left: 80px;
+  /* width: 200px; */
+  /* margin-left: 80px; */
   cursor: pointer;
+}
+
+.tools {
+  margin: 0 10px;
 }
 
 #nav-bar-line {
@@ -223,6 +232,9 @@
 }
 
 .results-about {
+  position: relative;
+  left: 1100px;
+  bottom: 200px;
   border: 1px solid rgb(181, 181, 181, 0.5);
   width: 500px;
   height: 150px;
