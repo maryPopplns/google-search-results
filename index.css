@@ -1,0 +1,229 @@
+.header {
+  margin-top: 20px;
+  position: sticky;
+  display: flex;
+  height: 85px;
+}
+
+.left-header {
+  display: flex; */
+}
+
+#google-logo {
+  margin: 25px 15px 15px 15px;
+  height: 40px;
+  width: auto;
+}
+
+.search-bar {
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  border: solid 1px rgb(242, 242, 242);
+  border-top: transparent;
+  box-shadow: 0px 7px 17px -1px #b1b1b1a3;
+  width: 800px;
+  height: 50px;
+}
+
+#input-bar {
+  border: none;
+  outline: none;
+  position: relative;
+  left: 15px;
+  font-size: 22px;
+  width: 675px;
+  height: 35px;
+}
+
+#mic {
+  position: relative;
+  left: 10px;
+  height: 30px;
+  width: auto;
+  margin-left: 20px;
+}
+
+#mag {
+  position: relative;
+  left: 20px;
+  height: 35px;
+  width: auto;
+}
+
+.middle-header {
+  width: calc(100vw - 1179px);
+}
+
+.right-header {
+  display: flex;
+  /* float: right; */
+}
+
+#apps {
+  margin: 15px;
+  height: 50px;
+}
+
+#apps:hover {
+  cursor: pointer;
+}
+
+.header-sign-in {
+  word-wrap: none;
+  background-color: rgb(66, 141, 206);
+  margin: 10px;
+  padding: 15px;
+  border: solid 1px;
+}
+
+#sign-in-button {
+  color: white;
+  text-decoration: none;
+  /* margin: 20px; */
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-bar-left {
+  padding-inline-start: 0px;
+  display: flex;
+  width: 700px;
+  margin-left: 185px;
+  cursor: pointer;
+}
+
+.nav-bar-all {
+  margin: 0 5px 0 0;
+  display: flex;
+}
+
+#nav-mag {
+  margin: 0 5px 0 5px;
+  height: 20px;
+}
+
+.nav-bar-img {
+  margin: 0 5px 0 5px;
+  display: flex;
+}
+
+#nav-img {
+  margin: 0 5px 0 5px;
+  height: 20px;
+}
+
+.nav-bar-book {
+  margin: 0 5px 0 5px;
+  display: flex;
+}
+
+#nav-book {
+  margin: 0 5px 0 5px;
+  height: 20px;
+}
+
+.nav-bar-video {
+  margin: 0 5px 0 5px;
+  display: flex;
+}
+
+#nav-video {
+  margin: 0 5px 0 5px;
+  height: 20px;
+}
+
+.nav-bar-news {
+  margin: 0 5px 0 5px;
+  display: flex;
+}
+
+#nav-news {
+  margin: 0 5px 0 5px;
+  height: 20px;
+}
+
+.nav-bar-more {
+  margin: 0 5px 0 5px;
+  display: flex;
+}
+
+#nav-more {
+  margin: 0 5px 0 5px;
+  height: 20px;
+}
+
+.nav-bar-right {
+  padding-inline-start: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+
+#nav-bar-line {
+  position: relative;
+  bottom: 10px;
+  border-color: rgb(230, 230, 230);
+  opacity: 0.2;
+}
+
+#results-stats {
+  margin-left: 190px;
+  color: gray;
+}
+
+#dictionary {
+  margin-left: 190px;
+  font-family: sans-serif;
+  font-size: 28px;
+}
+
+.dictionary-search-bar {
+  display: flex;
+  border: 1px solid rgba(121, 121, 121, 0.5);
+  border-radius: 0.5em;
+  opacity: 0.5;
+  width: 800px;
+  margin-left: 190px;
+}
+
+#dictionary-input {
+  border: transparent;
+  outline: none;
+  margin-left: 5px;
+  font-size: 24px;
+  width: 700px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.word-outloud {
+  display: flex;
+}
+
+#dictionary-mag {
+  margin-left: 30px;
+  width: 40px;
+  height: auto;
+}
+
+#sound-icon {
+  margin: 20px 30px 0 190px;
+  width: 50px;
+}
+
+#help {
+  margin-top: 10px;
+  font-size: 50px;
+}
+
+.results-about {
+  border: 1px solid rgb(181, 181, 181, 0.5);
+  width: 500px;
+  height: 150px;
+}
