@@ -212,6 +212,7 @@
 
 .word-outloud {
   display: flex;
+  margin-bottom: -280px;
 }
 
 #dictionary-mag {
@@ -231,9 +232,9 @@
 }
 
 .results-about {
-  position: absolute;
-  left: 1200px;
-  bottom: 600px;
+  position: relative;
+  left: 60em;
+  bottom: -5em;
   border: 1px solid rgb(181, 181, 181, 0.5);
   border-radius: 0.5em;
   width: 500px;
@@ -372,11 +373,15 @@
   margin: 20px 0 0 200px;
 }
 
-.people-ask-column {
+.people-ask-rows {
   display: flex;
   align-items: center;
 }
 
 #people-ask-svg {
   height: 30px;
+}
+
+.word-spacing {
+  margin: 20px 0 20px 0;
 }
