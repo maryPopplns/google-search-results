@@ -166,8 +166,6 @@
   padding-inline-start: 0px;
   display: flex;
   justify-content: space-evenly;
-  /* width: 200px; */
-  /* margin-left: 80px; */
   cursor: pointer;
 }
 
@@ -233,10 +231,11 @@
 }
 
 .results-about {
-  position: relative;
-  left: 1100px;
-  bottom: 200px;
+  position: absolute;
+  left: 1200px;
+  bottom: 600px;
   border: 1px solid rgb(181, 181, 181, 0.5);
+  border-radius: 0.5em;
   width: 500px;
   height: 275px;
 }
@@ -245,7 +244,7 @@
   margin: 20px;
 }
 
-#first-bar {
+.results-bar {
   border: none;
   height: 1px;
   background-color: rgb(181, 181, 181, 0.5);
@@ -300,4 +299,84 @@
 
 #definition-space {
   width: 190px;
+}
+
+#help-phon {
+  margin: 10px 0 10px 270px;
+  color: rgba(123, 123, 123, 0.8);
+}
+
+#verb-list {
+  margin-left: 200px;
+}
+
+.definitions {
+  margin-left: 200px;
+}
+
+.verb-syn {
+  display: flex;
+}
+
+.circled {
+  border: 1px solid rgb(181, 181, 181, 0.5);
+  border-radius: 0.75em;
+  margin: -5px 10px 0px 10px;
+  padding: 5px;
+}
+
+.grayed-words {
+  margin: 0 15px 0 15px;
+  color: rgba(157, 157, 157, 0.5);
+}
+
+#noun-list {
+  margin-left: 190px;
+}
+
+.noun-definitons {
+  margin-left: 45px;
+}
+
+.noun-syns {
+  display: flex;
+  margin-top: 15px;
+}
+
+#translations-definitions {
+  width: 700px;
+  margin: 40px 0 0 200px;
+}
+
+#down-arrow {
+  width: 50px;
+  height: auto;
+}
+
+#translations-definitions-text {
+  position: relative;
+  bottom: 23px;
+  left: 375px;
+  width: 325px;
+  height: 40px;
+  border-radius: 1em;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid;
+  display: flex;
+  background-color: white;
+}
+
+.people-also-ask {
+  width: 700px;
+  margin: 20px 0 0 200px;
+}
+
+.people-ask-column {
+  display: flex;
+  align-items: center;
+}
+
+#people-ask-svg {
+  height: 30px;
 }
