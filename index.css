@@ -82,6 +82,7 @@
 }
 
 #sign-in-button {
+  white-space: nowrap;
   color: white;
   text-decoration: none;
 }
@@ -237,5 +238,66 @@
   bottom: 200px;
   border: 1px solid rgb(181, 181, 181, 0.5);
   width: 500px;
-  height: 150px;
+  height: 275px;
+}
+
+#see-results {
+  margin: 20px;
+}
+
+#first-bar {
+  border: none;
+  height: 1px;
+  background-color: rgb(181, 181, 181, 0.5);
+}
+
+.results-about-arrow {
+  height: 30px;
+}
+
+.help-movie {
+  display: flex;
+  align-items: center;
+}
+
+#help-movie-cover {
+  margin: 0 20px 0 20px;
+  width: 50px;
+}
+
+#film-space {
+  width: 280px;
+}
+
+.help-album {
+  display: flex;
+  align-items: center;
+}
+
+#help-album-cover {
+  margin: 0 20px 0 20px;
+  width: 50px;
+}
+
+#album-space {
+  width: 126px;
+}
+
+.dictionary-definition {
+  display: flex;
+  align-items: center;
+}
+
+.mag-box {
+  margin: 0 20px 0 20px;
+  height: 50px;
+  width: 50px;
+}
+
+#search-mag {
+  height: 40px;
+}
+
+#definition-space {
+  width: 190px;
 }
