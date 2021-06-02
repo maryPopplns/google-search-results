@@ -385,3 +385,97 @@
 .word-spacing {
   margin: 20px 0 20px 0;
 }
+
+.query-result {
+  margin: 50px 0 50px 200px;
+  max-width: 700px;
+}
+
+.large-query-title {
+  margin: 10px 0 10px 0;
+  font-size: 30px;
+  color: blue;
+  cursor: pointer;
+}
+
+.meta-data {
+  margin: 5px 0 5px 0;
+}
+
+.internal-links {
+  margin: 5px 0 5px 0;
+  color: blue;
+  cursor: pointer;
+}
+
+.video-suggestions {
+  margin-left: 200px;
+  max-width: 700px;
+}
+
+.video-icons {
+  margin-top: 75px;
+  display: flex;
+  align-items: center;
+}
+
+#video-svg {
+  width: 45px;
+}
+
+.video-column {
+  display: flex;
+}
+
+.help-albums {
+  width: 200px;
+  margin-right: 30px;
+}
+
+.video-suggestion-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.video-link {
+  color: blue;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#see-more-videos {
+  margin-top: 100px;
+}
+
+#right-arrow {
+  width: 30px;
+}
+
+.more-videos-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid;
+  width: 250px;
+  border-radius: 1em;
+  background-color: white;
+  position: relative;
+  left: 200px;
+  bottom: 27px;
+}
+
+.related-searches {
+  margin-left: 200px;
+  max-width: 700px;
+}
+
+.searches-text {
+  display: flex;
+  align-items: center;
+}
+
+.song-search {
+  display: flex;
+  justify-content: space-between;
+}
