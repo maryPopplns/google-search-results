@@ -1,9 +1,7 @@
 .header {
   margin-top: 20px;
-  position: sticky;
   display: flex;
   height: 85px;
-  /* min-width: 1300; */
 }
 
 .left-header {
@@ -56,7 +54,7 @@
 
 .middle-header {
   width: calc(100vw - 1150px);
-  min-width: 200px;
+  min-width: 600px;
 }
 
 .right-header {
@@ -394,7 +392,7 @@
 .large-query-title {
   margin: 10px 0 10px 0;
   font-size: 30px;
-  color: blue;
+  color: rgb(27, 27, 184);
   cursor: pointer;
 }
 
@@ -404,8 +402,9 @@
 
 .internal-links {
   margin: 5px 0 5px 0;
-  color: blue;
+  color: rgb(27, 27, 184);
   cursor: pointer;
+  font-size: 20px;
 }
 
 .video-suggestions {
@@ -478,4 +477,43 @@
 .song-search {
   display: flex;
   justify-content: space-between;
+}
+
+.mag-searches {
+  margin-top: 50px;
+  /* margin-right: 200px; */
+  width: 700px;
+}
+
+.mag-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.mag-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.individual-mag {
+  padding: 15px 20px 15px 20px;
+  margin: 5px 0 5px 0;
+  display: flex;
+  border: 1px solid transparent;
+  background-color: rgba(222, 195, 129, 0.2);
+  border-radius: 1.5em;
+  min-width: 300px;
+}
+
+.mag-icon {
+  width: 25px;
+  /* margin-left: 20px; */
+}
+
+.mag-text {
+  margin-left: 15px;
+}
+
+#google-img {
+  margin: 75px 0 00px 150px;
 }
