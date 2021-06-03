@@ -512,8 +512,33 @@
 
 .mag-text {
   margin-left: 15px;
+  cursor: pointer;
 }
 
 #google-img {
-  margin: 75px 0 00px 150px;
+  margin: 75px 0 75px 150px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100px;
+  background-color: rgb(238, 237, 231);
+}
+
+.location {
+  display: flex;
+  margin-left: 200px;
+}
+
+#location-text {
+  color: rgba(79, 79, 79, 0.7);
+}
+
+.help {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  color: rgba(79, 79, 79, 0.7);
 }
