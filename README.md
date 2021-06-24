@@ -1,0 +1,2 @@
+- firmly graspsed the concept of flexbox
+- learned how to create containers to better utilize flexbox
